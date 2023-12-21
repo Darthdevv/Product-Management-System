@@ -138,7 +138,7 @@ function searchProduct() {
   for (let i = 0; i < productList.length; i++) {
       
     if (productList[i].name.toLowerCase().includes(query.toLowerCase())) {
-      product += ` <tr class='product'>
+      product += ` <tr class='product text-center'>
         <td>${i + 1}</td>
         <td>${productList[i].name}</td>
         <td>${productList[i].number}</td>
