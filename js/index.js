@@ -273,3 +273,4 @@ productForm.addEventListener('submit', (e) => {
     .forEach((input) => input.classList.remove("success"));
 })
 
+
